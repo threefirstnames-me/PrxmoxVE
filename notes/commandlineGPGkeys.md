@@ -74,6 +74,3 @@ git commit -S -m "Your commit message"
 ```
 The `-S` flag ensures your commit is signed with your GPG key.
 
-### Should You Erase the Email on the Debian Machine?
-You can use the no-reply email or configure a separate commit identity for privacy. Deleting the email on your Debian machine will make unsigned commits, which may not be ideal if you want to maintain a good security posture. GitHub also marks unsigned commits, which could make them seem less trustworthy to others. Having a separate commit account with a no-reply email or unique email for that machine is the better option. 
-
