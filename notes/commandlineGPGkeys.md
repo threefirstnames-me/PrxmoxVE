@@ -60,7 +60,7 @@ If your Debian machine's email address is not the one registered with GitHub, yo
    ```
 
 2. **Create a Separate Git Account on the Debian Machine**:
-   If you'd rather keep things separated, you could create a new Git identity for the Debian machine:
+   If you'd rather keep things separated, you could create a new Git identity for the Linux machine:
    ```bash
    git config --global user.name "Your Commit Name"
    git config --global user.email "your-debian-specific-email@example.com"
